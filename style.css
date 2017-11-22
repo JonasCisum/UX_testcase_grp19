@@ -13,6 +13,10 @@ img {
     width: 100%;
 }
 
+li {
+    font-size: 1.5em;
+}
+
 /*****     Text     *****/
 
 h1 {
@@ -50,7 +54,6 @@ h4 {
     font-weight: 500;
     font-family: 'roboto', sans-serif;
     color: #fff;
-    text-align: center;
     margin-top: 0px;
     margin-bottom: 30px;
 }
@@ -343,6 +346,21 @@ header nav a {
 
 
 /* Navne */
+
+button {
+
+    background-color: dimgrey;
+    width: 30vw;
+    height: 10vw;
+    font-size: 4em;
+    color: white;
+    border: none;
+}
+
+
+button:hover {
+    background-color: darkslategrey;
+}
 
 #kontakt {
     padding: 5vw 0;
