@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+
+/*** TAGS ***/
+
 body {
     margin: 0;
     font-size: 62.5%;
@@ -16,6 +19,16 @@ img {
 li {
     font-size: 1.5em;
 }
+
+section {
+    margin: 0;
+    padding: 0;
+    border: none;
+    padding: 2vw;
+}
+
+
+/*** TAGS END ***/
 
 .video {
     align-self: center;
@@ -40,8 +53,8 @@ h2 {
     font-family: 'roboto', sans-serif;
     color: #fff;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    margin: 0 0 30px 0;
 }
 
 h3 {
@@ -50,8 +63,8 @@ h3 {
     font-family: 'roboto', sans-serif;
     color: #fff;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    margin: 0 0 30px 0;
 }
 
 h4 {
@@ -150,6 +163,31 @@ a:hover {}
     margin-bottom: 30px;
 }
 
+.expanded {
+    background-color: #779799;
+}
+
+/* FARVEKODER
+
+#799FA8 - primær farve
+#AACACC - Sekundær farve
+
+*/
+
+.bg_p {
+    background-color: #799FA8;
+    color: #FFFFFF;
+}
+
+.bg_s {
+    background-color: #AACACC;
+    color: #FFFFFF;
+}
+
+.bg_morkebla {
+    background-color: #577d86;
+}
+
 .bg_3 {
     background-color: #333;
     color: #fff;
@@ -207,7 +245,7 @@ a:hover {}
     flex-wrap: wrap;
 
     min-height: 100px;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     padding: 20px 5%;
     /*    margin: 40px 0px 0px 0px;*/
@@ -255,8 +293,12 @@ header nav a {
 
 /*****     Persona *****/
 
-#persona img {
-    width 50%;
+.bjarne {
+    background-image: url(img/bjarne.jpg);
+    width: 50vw;
+    height: 35vw;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 /*****     Titel     *****/
@@ -354,17 +396,21 @@ header nav a {
 
 button {
 
-    background-color: dimgrey;
+    background-color: #AACACC;
     width: 30vw;
     height: 10vw;
+
     font-size: 4em;
     color: white;
+
     border: none;
+
+    cursor: pointer;
 }
 
 
 button:hover {
-    background-color: darkslategrey;
+    color: #eeeeee;
 }
 
 #kontakt {

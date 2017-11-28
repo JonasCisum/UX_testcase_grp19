@@ -18,9 +18,11 @@ function klik() {
     if (drop == false) {
         $(".dropdown_section_content").show();
         drop = true;
+        $(".drop").addClass("expanded");
     } else {
         $(".dropdown_section_content").hide();
         drop = false;
+        $(".drop").removeClass("expanded");
     }
 }
 
@@ -34,9 +36,11 @@ function klik1() {
     if (drop == false) {
         $(".dropdown_section_content1").show();
         drop = true;
+        $(".drop1").addClass("expanded");
     } else {
         $(".dropdown_section_content1").hide();
         drop = false;
+        $(".drop1").removeClass("expanded");
     }
 }
 
@@ -51,8 +55,10 @@ function klik2() {
     if (drop == false) {
         $(".dropdown_section_content2").show();
         drop = true;
+        $(".drop2").addClass("expanded");
     } else {
         $(".dropdown_section_content2").hide();
         drop = false;
+        $(".drop2").removeClass("expanded");
     }
 }
