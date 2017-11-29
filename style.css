@@ -30,6 +30,16 @@ section {
 
 /*** TAGS END ***/
 
+.ikon {
+    background-image: url(img/ikon.svg);
+    background-size: cover;
+
+    width: 30vw;
+    height: 30vw;
+
+    margin: 0 auto;
+}
+
 .video {
     align-self: center;
     width: 100vw;
